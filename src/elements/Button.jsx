@@ -1,6 +1,6 @@
 const Button = ({ img, onClick }) => {
   return (
-    <button onClick={onClick} className="hover:scale-[120%]
+    <button onClick={onClick} className="hover:scale-[120%] cursor-pointer
       transition-transform duration-200
       active:scale-[100%]">
       <img src={img} alt="icon" />

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import MainRouter from './pages/MainRouter'
 import NavBar from './elements/NavBar'
 import Footer from './elements/Footer'
@@ -6,7 +5,7 @@ import Footer from './elements/Footer'
 function App() {
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#EAEAEA] font-Montserrat overflow-x-hidden">
+    <div className="min-h-screen flex flex-col bg-[#EAEAEA] font-Montserrat">
 
       {/* Навбар всегда сверху */}
       <NavBar />
