@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import ItemsPage from './itemsPage'
+import ItemsPage from './ItemsPage'
 import Basket from './Basket'
 
 const MainRouter = () => {
